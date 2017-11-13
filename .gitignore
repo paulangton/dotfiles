@@ -1,0 +1,53 @@
+# Ignore everything by default
+*
+
+# zsh includes
+!.zshrc
+!.zsh
+!.zsh/*
+!.oh-my-zsh
+
+# zsh ignores
+.zsh/local
+.zsh/pre-local
+.zsh/data
+.zsh/data/*
+
+# bash includes
+!.bashrc
+
+# bash ignores
+
+
+# ipython includes
+!.ipython
+!.ipython/ipythonrc
+
+# ipython ignores
+
+
+# vim includes
+!.vimrc
+!.vim
+!.vim/*
+
+# vim ignore
+.vim/.netrwhist
+
+# git includes
+!.gitconfig
+!.gitignore
+
+# git ignores
+
+
+# local scripts
+!bin
+
+# sakura config
+!.config/sakura/*
+
+# sway config
+!.config/sway/config
+
+
