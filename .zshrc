@@ -85,6 +85,11 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias clear='clear && fortune -a | cowthink | lolcat'
 alias ls='ls --color=auto'
+alias dolphin='GDK_BACKEND=x11 dolphin-emu'
+
+
+# Calendar display
+remind -n -gad ~/calendar
 
 # Very important configurations
 fortune -a | cowthink | lolcat

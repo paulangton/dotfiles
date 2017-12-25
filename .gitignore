@@ -44,10 +44,15 @@
 # local scripts
 !bin
 
+# config
+!.config/*
+!.config/*/*
+
 # sakura config
 !.config/sakura/*
 
 # sway config
-!.config/sway/config
+!.config/sway/*
 
-
+# X resources
+!.Xresources
