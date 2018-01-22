@@ -72,6 +72,13 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+# Wayland display environment
+export ELM_DISPLAY=wl
+# export WLC_XWAYLAND=0
+# export GDK_BACKEND=wayland
+export GTK_CSD=0
+export _JAVA_AWT_WM_NONREPARENTING=1
+
 # ssh
  export SSH_KEY_PATH="~/.ssh/rsa_id"
 
