@@ -83,10 +83,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias clear='clear && fortune -a | cowthink | lolcat'
+# alias clear='clear && fortune -a | cowthink | lolcat'
 alias ls='ls --color=auto'
 alias dolphin='GDK_BACKEND=x11 dolphin-emu'
-
+alias pdf='zathura'
 
 # Calendar display
 remind -n -gad ~/calendar

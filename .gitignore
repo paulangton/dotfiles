@@ -40,11 +40,14 @@
 
 # git ignores
 
+# 
+!calendar/*
 
 # local scripts
 !bin
 
 # config
+!.config
 !.config/*
 !.config/*/*
 
@@ -53,6 +56,9 @@
 
 # sway config
 !.config/sway/*
+
+# i3blocks config
+!.config/i3blocks/*
 
 # X resources
 !.Xresources
