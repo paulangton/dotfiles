@@ -48,27 +48,29 @@
 
 # config
 !.config
-!.config/*
-
-# chromium
-.config/chromium/*
 
 # sakura config
+!.config/sakura
 !.config/sakura/*
 
 # sway config
+!.config/sway
 !.config/sway/*
 
 # i3blocks config
+!.config/i3blocks
 !.config/i3blocks/*
 
 # zathura config
+!.config/zathura
 !.config/zathura/*
 
 # ulauncher config
+!.config/ulauncher
 !.config/ulauncher/*
 
 # lxqt config
+~.config/lxqt
 !.config/lxqt/*
 
 # X resources
