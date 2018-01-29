@@ -50,6 +50,9 @@
 !.config
 !.config/*
 
+# chromium
+.config/chromium/*
+
 # sakura config
 !.config/sakura/*
 

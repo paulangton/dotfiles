@@ -6,9 +6,11 @@
 # Read `man 5 sway` for a complete reference.
 
 ### Variables
-#
-# Logo key. Use Mod1 for Alt.
-set $mod Mod1
+# Two MOD keys are set to enable switching between MAC and Windows keyboards
+# Use Mod1 for Alt.
+# Use Mod4 for Logo key.
+set $mod  Mod4
+set $mod2 Mod1
 
 # Your preferred terminal emulator
 set $term sakura
@@ -91,29 +93,42 @@ input "DLL0665:01 06CB:76AD Touchpad" {
 #
     # start a terminal
     bindsym $mod+Return exec $term
+    bindsym $mod2+Return exec $term
 
     # kill focused window
     bindsym $mod+Shift+q kill
+    bindsym $mod2+Shift+q kill
 
     # start your launcher
     bindsym $mod+space exec $menu
+    bindsym $mod2+space exec $menu
 
     # turn backlight on/off
     bindsym $mod+F10 exec $bklton
     bindsym $mod+F9 exec $bkltoff
+    bindsym $mod2+F10 exec $bklton
+    bindsym $mod2+F9 exec $bkltoff
+
 
     # adjust volume
     bindsym $mod+F2 exec $voldown
     bindsym $mod+F3 exec $volup
     bindsym $mod+F1 exec $togglemute
+    bindsym $mod2+F2 exec $voldown
+    bindsym $mod2+F3 exec $volup
+    bindsym $mod2+F1 exec $togglemute
 
     # control player
+    bindsym $mod2+F6 exec $skip
+    bindsym $mod2+F5 exec $playpause
+    bindsym $mod2+F4 exec $prev
     bindsym $mod+F6 exec $skip
     bindsym $mod+F5 exec $playpause
     bindsym $mod+F4 exec $prev
 
     # lock the screen
     bindsym $mod+l exec $lock
+    bindsym $mod2+l exec $lock
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -121,12 +136,15 @@ input "DLL0665:01 06CB:76AD Touchpad" {
     # Change normal to inverse to use left mouse button for resizing and right
     # mouse button for dragging.
     floating_modifier $mod normal
+    floating_modifier $mod2 normal
 
     # reload the configuration file
     bindsym $mod+Shift+c reload
+    bindsym $mod2+Shift+c reload
 
     # exit sway (logs you out of your wayland session)
     bindsym $mod+Shift+e exit
+    bindsym $mod2+Shift+e exit
 #
 # Moving around:
 #
@@ -136,8 +154,16 @@ input "DLL0665:01 06CB:76AD Touchpad" {
     bindsym $mod+Down focus down
     bindsym $mod+Up focus up
     bindsym $mod+Right focus right
+    bindsym $mod2+Left focus left
+    bindsym $mod2+Down focus down
+    bindsym $mod2+Up focus up
+    bindsym $mod2+Right focus right
 
     # ditto, with arrow keys
+   # bindsym $mod2+Shift+Left move left
+   # bindsym $mod2+Shift+Down move down
+   # bindsym $mod2+Shift+Up move up
+   # bindsym $mod2+Shift+Right move right   
    # bindsym $mod+Shift+Left move left
    # bindsym $mod+Shift+Down move down
    # bindsym $mod+Shift+Up move up
@@ -156,6 +182,17 @@ input "DLL0665:01 06CB:76AD Touchpad" {
     bindsym $mod+8 workspace 8
     bindsym $mod+9 workspace 9
     bindsym $mod+0 workspace 10
+    bindsym $mod2+1 workspace 1
+    bindsym $mod2+2 workspace 2
+    bindsym $mod2+3 workspace 3
+    bindsym $mod2+4 workspace 4
+    bindsym $mod2+5 workspace 5
+    bindsym $mod2+6 workspace 6
+    bindsym $mod2+7 workspace 7
+    bindsym $mod2+8 workspace 8
+    bindsym $mod2+9 workspace 9
+    bindsym $mod2+0 workspace 10
+    
     # move focused container to workspace
     bindsym $mod+Shift+1 move container to workspace 1
     bindsym $mod+Shift+2 move container to workspace 2
@@ -167,11 +204,23 @@ input "DLL0665:01 06CB:76AD Touchpad" {
     bindsym $mod+Shift+8 move container to workspace 8
     bindsym $mod+Shift+9 move container to workspace 9
     bindsym $mod+Shift+0 move container to workspace 10
+    bindsym $mod2+Shift+1 move container to workspace 1
+    bindsym $mod2+Shift+2 move container to workspace 2
+    bindsym $mod2+Shift+3 move container to workspace 3
+    bindsym $mod2+Shift+4 move container to workspace 4
+    bindsym $mod2+Shift+5 move container to workspace 5
+    bindsym $mod2+Shift+6 move container to workspace 6
+    bindsym $mod2+Shift+7 move container to workspace 7
+    bindsym $mod2+Shift+8 move container to workspace 8
+    bindsym $mod2+Shift+9 move container to workspace 9
+    bindsym $mod2+Shift+0 move container to workspace 10
+
     # Note: workspaces can have any name you want, not just numbers.
     # We just use 1-10 as the default.
     
     # Move workspaces between displays
     bindsym $mod+x move workspace to output right
+    bindsym $mod2+x move workspace to output right
 #
 # Layout stuff:
 #
@@ -181,34 +230,48 @@ input "DLL0665:01 06CB:76AD Touchpad" {
     bindsym $mod+b splith
     bindsym $mod+v splitv
 
+    bindsym $mod2+b splith
+    bindsym $mod2+v splitv
+
     # Switch the current container between different layout styles
+    bindsym $mod2+s layout stacking
+    bindsym $mod2+w layout tabbed
+    bindsym $mod2+e layout toggle split
     bindsym $mod+s layout stacking
     bindsym $mod+w layout tabbed
     bindsym $mod+e layout toggle split
 
+
     # Make the current focus fullscreen
+    bindsym $mod2+f fullscreen
     bindsym $mod+f fullscreen
 
     # Toggle the current focus between tiling and floating mode
+    bindsym $mod2+Shift+space floating toggle
     bindsym $mod+Shift+space floating toggle
 
     # Swap focus between the tiling area and the floating area
+    #bindsym $mod2+space focus mode_toggle
     #bindsym $mod+space focus mode_toggle
 
     # move focus to the parent container
+    bindsym $mod2+a focus parent
     bindsym $mod+a focus parent
-#
+
+
 # Scratchpad:
-    #
-        # Sway has a "scratchpad", which is a bag of holding for windows.
+    # Sway has a "scratchpad", which is a bag of holding for windows.
     # You can send windows there and get them back later.
 
     # Move the currently focused window to the scratchpad
     bindsym $mod+Shift+minus move scratchpad
+    bindsym $mod2+Shift+minus move scratchpad
 
     # Show the next scratchpad window or hide the focused scratchpad window.
     # If there are multiple scratchpad windows, this command cycles through them.
     bindsym $mod+minus scratchpad show
+    bindsym $mod2+minus scratchpad show
+
 #
 # Resizing containers:
 #
@@ -229,6 +292,7 @@ mode "resize" {
     bindsym Escape mode "default"
 }
 bindsym $mod+r mode "resize"
+bindsym $mod2+r mode "resize"
 
 #
 # Status Bar:
@@ -249,3 +313,4 @@ bar {
 }
 
 include /etc/sway/config.d/*
+
