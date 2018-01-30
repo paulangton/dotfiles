@@ -106,22 +106,22 @@ input "DLL0665:01 06CB:76AD Touchpad" {
     # turn backlight on/off
     bindsym $mod+F10 exec $bklton
     bindsym $mod+F9 exec $bkltoff
-    bindsym $mod2+F10 exec $bklton
-    bindsym $mod2+F9 exec $bkltoff
+    bindsym $mod2+F2 exec $bklton
+    bindsym $mod2+F1 exec $bkltoff
 
 
     # adjust volume
     bindsym $mod+F2 exec $voldown
     bindsym $mod+F3 exec $volup
     bindsym $mod+F1 exec $togglemute
-    bindsym $mod2+F2 exec $voldown
-    bindsym $mod2+F3 exec $volup
-    bindsym $mod2+F1 exec $togglemute
+    bindsym $mod2+F11 exec $voldown
+    bindsym $mod2+F12 exec $volup
+    bindsym $mod2+F10 exec $togglemute
 
     # control player
-    bindsym $mod2+F6 exec $skip
-    bindsym $mod2+F5 exec $playpause
-    bindsym $mod2+F4 exec $prev
+    bindsym $mod2+F9 exec $skip
+    bindsym $mod2+F8 exec $playpause
+    bindsym $mod2+F7 exec $prev
     bindsym $mod+F6 exec $skip
     bindsym $mod+F5 exec $playpause
     bindsym $mod+F4 exec $prev
