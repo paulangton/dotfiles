@@ -30,6 +30,7 @@
 !.vimrc
 !.vim
 !.vim/*
+!.vim/*/*
 
 # vim ignore
 .vim/.netrwhist

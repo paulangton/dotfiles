@@ -1,9 +1,14 @@
-syntax on
+" Vim-plug
+call plug#begin('~/.vim/plugged')
 
-" latexsuite configuration
-filetype plugin indent on
-set grepprg=grep\ -nH\ $*
-let g:tex_flavor = "latex"
+" Make sure you use single quotes
+Plug 'lervag/vimtex'
+
+
+" Initialize plugin system
+call plug#end()
+
+syntax on
 
 " Change tab to 4 spaces
 set autoindent
