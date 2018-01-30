@@ -76,3 +76,6 @@
 
 # X resources
 !.Xresources
+
+# README
+!README.md
