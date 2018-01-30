@@ -1,3 +1,6 @@
 [submodule ".vim/plugged/vimtex"]
 	path = .vim/plugged/vimtex
 	url = https://github.com/lervag/vimtex
+[submodule ".oh-my-zsh"]
+	path = .oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh
