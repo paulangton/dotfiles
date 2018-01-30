@@ -9,5 +9,8 @@ set scroll-page-aware "true"
 # font
 set font "inconsolata normal 14"
 
+# status bar
+set guioptions ""
+
 # open pdfs to fill the screen
-set adjust-open best-fit
+set adjust-open width

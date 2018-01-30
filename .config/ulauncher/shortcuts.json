@@ -1,1 +1,11 @@
-{}
+{
+    "d2528fa9-03b9-435b-ba26-b110a4202263": {
+        "added": 1517343221.39955, 
+        "name": "pdf", 
+        "keyword": "pdf", 
+        "cmd": "zathura", 
+        "is_default_search": false, 
+        "id": "d2528fa9-03b9-435b-ba26-b110a4202263", 
+        "icon": "~/downloads/icon-documents.png"
+    }
+}
