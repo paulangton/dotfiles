@@ -9,8 +9,8 @@
 # Two MOD keys are set to enable switching between MAC and Windows keyboards
 # Use Mod1 for Alt.
 # Use Mod4 for Logo key.
-set $mod  Mod4
-set $mod2 Mod1
+set $mod  Mod1
+set $mod2 Mod4
 
 # Your preferred terminal emulator
 set $term sakura
