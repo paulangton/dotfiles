@@ -2,7 +2,12 @@
 call plug#begin('~/.vim/plugged')
 
 " Make sure you use single quotes
+
+" Vim-tex
 Plug 'lervag/vimtex'
+
+" Async Linter
+Plug 'https://github.com/w0rp/ale.git'
 
 " Initialize plugin system
 call plug#end()
