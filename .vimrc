@@ -11,7 +11,7 @@ call plug#end()
 syntax on
 
 " Turn off callbacks for latex compiler
-let g:vimtex_compiler_latexmk={'callback' : 0}
+" let g:vimtex_compiler_latexmk={'callback' : 0}
 
 " Change tab to 4 spaces
 set autoindent

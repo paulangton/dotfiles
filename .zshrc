@@ -94,6 +94,7 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 alias ls='ls --color=auto'
 alias dolphin='GDK_BACKEND=x11 dolphin-emu'
 alias pdf='zathura'
+alias vim='nvim' # async yes please
 
 # Calendar display
 remind -n -gad ~/calendar

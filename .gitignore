@@ -50,6 +50,10 @@
 # config
 !.config
 
+# nvim
+!.config/nvim
+!.config/nvim/*
+
 # sakura config
 !.config/sakura
 !.config/sakura/*
