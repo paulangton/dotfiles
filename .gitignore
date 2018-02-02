@@ -75,8 +75,13 @@
 !.config/ulauncher/*
 
 # lxqt config
-~.config/lxqt
+!.config/lxqt
 !.config/lxqt/*
+
+# cli-visualizer config
+!.config/vis
+!.config/vis/*
+!.config/vis/*/*
 
 # X resources
 !.Xresources
