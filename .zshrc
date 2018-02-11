@@ -96,6 +96,9 @@ alias dolphin='GDK_BACKEND=x11 dolphin-emu'
 alias pdf='zathura'
 alias vim='nvim' # async yes please
 
+# virtualenvwrapper
+source /usr/bin/virtualenvwrapper.sh
+
 # Calendar display
 remind -n -gad ~/calendar
 
