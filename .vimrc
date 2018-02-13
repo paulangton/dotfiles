@@ -6,6 +6,9 @@ call plug#begin('~/.vim/plugged')
 " Vim-tex
 Plug 'lervag/vimtex'
 
+" Syntastic
+" Plug 'vim-syntastic/syntastic'
+
 " Async Linter
 Plug 'https://github.com/w0rp/ale.git'
 
@@ -17,6 +20,11 @@ syntax on
 
 " Turn off callbacks for latex compiler
 " let g:vimtex_compiler_latexmk={'callback' : 0}
+
+" ALE Fixers
+let g:ale_fixers = {
+            \   'python': ['autopep8'],
+            \}
 
 " Change tab to 4 spaces
 set autoindent
