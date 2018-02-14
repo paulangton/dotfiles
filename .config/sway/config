@@ -221,6 +221,7 @@ input "DLL0665:01 06CB:76AD Touchpad" {
     # Move workspaces between displays
     bindsym $mod+x move workspace to output right
     bindsym $mod2+x move workspace to output right
+
 #
 # Layout stuff:
 #

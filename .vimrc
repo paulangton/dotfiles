@@ -26,6 +26,10 @@ let g:ale_fixers = {
             \   'python': ['autopep8'],
             \}
 
+if has("nvim")
+  let g:vimtex_latexmk_progname = 'nvr'
+endif
+
 " Change tab to 4 spaces
 set autoindent
 set tabstop=4
