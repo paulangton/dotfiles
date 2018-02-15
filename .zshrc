@@ -80,7 +80,10 @@ export GTK_CSD=0
 export _JAVA_AWT_WM_NONREPARENTING=1
 
 # ssh
- export SSH_KEY_PATH="~/.ssh/rsa_id"
+export SSH_KEY_PATH="~/.ssh/rsa_id"
+
+# include user-installed programs
+export PATH=$PATH:~/.local/bin
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -94,7 +97,7 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 alias ls='ls --color=auto'
 alias dolphin='GDK_BACKEND=x11 dolphin-emu'
 alias pdf='zathura'
-alias vim='nvim' # async yes please
+
 
 # virtualenvwrapper
 source /usr/bin/virtualenvwrapper.sh

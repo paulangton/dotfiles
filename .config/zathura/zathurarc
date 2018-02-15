@@ -9,6 +9,9 @@ set scroll-page-aware "true"
 # font
 set font "inconsolata normal 14"
 
+# synctex
+set synctex true
+
 # status bar
 set guioptions ""
 

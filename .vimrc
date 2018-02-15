@@ -3,11 +3,8 @@ call plug#begin('~/.vim/plugged')
 
 " Make sure you use single quotes
 
-" Vim-tex
+" Vimtex
 Plug 'lervag/vimtex'
-
-" Syntastic
-" Plug 'vim-syntastic/syntastic'
 
 " Async Linter
 Plug 'https://github.com/w0rp/ale.git'
@@ -18,17 +15,20 @@ call plug#end()
 " Syntax highlighting
 syntax on
 
-" Turn off callbacks for latex compiler
-" let g:vimtex_compiler_latexmk={'callback' : 0}
 
 " ALE Fixers
 let g:ale_fixers = {
             \   'python': ['autopep8'],
             \}
 
-if has("nvim")
-  let g:vimtex_latexmk_progname = 'nvr'
-endif
+" Vimtex
+let g:vimtex_view_method = 'zathura'
+let g:vimtex_latexmk_progname = 'nvr'
+
+
+" Reformatting respecting latex paragraphs
+map \gq ?^$\\|^\s*\(\\begin\\|\\end\\|\\label\)?1<CR>gq//-1<CR>
+omap lp ?^$\\|^\s*\(\\begin\\|\\end\\|\\label\)?1<CR>//-1<CR>.<CR> 
 
 " Change tab to 4 spaces
 set autoindent
@@ -37,4 +37,4 @@ set shiftwidth=4
 set expandtab
 
 " Auto-wrap text at 80 characters
-set tw=79
+set tw=80
