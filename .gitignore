@@ -19,11 +19,12 @@
 # bash ignores
 
 
-# ipython includes
+# Python
+## ipython includes
 !.ipython
 !.ipython/ipythonrc
-
-# ipython ignores
+## pylint
+!.config/pylintrc
 
 
 # vim includes
@@ -41,7 +42,7 @@
 
 # git ignores
 
-# 
+# calendar 
 !calendar/*
 
 # local scripts
