@@ -19,7 +19,7 @@ set $term sakura
 set $menu ulauncher
 
 # Path to desktop background
-set $bg /home/paul/downloads/abstract-multicolor.jpg 
+set $bg /home/paul/pictures/abstract-multicolor.jpg 
 
 # Keyboard brightness
 set $bklton brightnessctl -d dell::kbd_backlight s 1

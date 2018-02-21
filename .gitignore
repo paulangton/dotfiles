@@ -40,10 +40,12 @@
 !.gitconfig
 !.gitignore
 
-# git ignores
-
 # calendar 
 !calendar/*
+
+# background
+!pictures
+!pictures/abstract-multicolor.jpg
 
 # local scripts
 !bin
