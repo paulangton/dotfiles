@@ -79,6 +79,10 @@
 !.config/lxqt
 !.config/lxqt/*
 
+# dunst config
+!.config/dunst
+!.config/dunst/*
+
 # cli-visualizer config
 !.config/vis
 !.config/vis/*
