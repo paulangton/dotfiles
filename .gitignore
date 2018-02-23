@@ -89,6 +89,7 @@
 !.config/vis
 !.config/vis/*
 !.config/vis/*/*
+.config/vis/vis.log
 
 # X resources
 !.Xresources
