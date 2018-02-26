@@ -253,3 +253,52 @@
 2018-02-26 10:36:40.587 (0x7ffcc49dfad0) Warning: QPainter::end: Painter not active, aborted
 2018-02-26 10:37:08.114 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 63.9461 actionTime: QTime(Invalid)
 2018-02-26 10:38:02.127 (0x7ffcc49dfad0) Debug: execAction "/usr/share/applications/urxvt.desktop"
+2018-02-26 10:39:08.016 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 63.3122 actionTime: QTime(Invalid)
+2018-02-26 10:39:17.464 (0x7ffd3c16d1f0) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:39:17.464 (0x7ffd3c16d1f0) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:39:17.464 (0x7ffd3c16d1f0) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:39:17.464 (0x7ffd3c16d1f0) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:39:17.464 (0x7ffd3c16d1f0) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:39:17.464 (0x7ffd3c16d1f0) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:39:17.464 (0x7ffd3c16d1f0) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:39:17.464 (0x7ffd3c16d1f0) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:39:17.464 (0x7ffd3c16d1f0) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:39:17.464 (0x7ffd3c16d1f0) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:39:17.464 (0x7ffd3c16d1f0) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:39:17.464 (0x7ffd3c16d1f0) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:41:08.057 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 62.6387 actionTime: QTime(Invalid)
+2018-02-26 10:41:20.100 (0x7fff34b140b0) Warning: Empty filename passed to function
+2018-02-26 10:43:08.108 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 62.0246 actionTime: QTime(Invalid)
+2018-02-26 10:43:23.020 (0x7fff34b140b0) Warning: Empty filename passed to function
+2018-02-26 10:44:05.249 (0x7ffcc49dfad0) Debug: execAction "/usr/share/applications/urxvt.desktop"
+2018-02-26 10:44:18.605 (0x7ffcc49dfad0) Debug: execAction "/usr/share/applications/urxvt.desktop"
+2018-02-26 10:44:25.500 (0x7ffcc49dfad0) Debug: execAction "/usr/share/applications/urxvt.desktop"
+2018-02-26 10:44:43.559 (0x7ffcc49dfad0) Debug: execAction "/usr/share/applications/urxvt.desktop"
+2018-02-26 10:45:08.036 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 61.351 actionTime: QTime(Invalid)
+2018-02-26 10:47:08.113 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 60.6973 actionTime: QTime(Invalid)
+2018-02-26 10:47:21.903 (0x7ffeb0309640) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:47:21.903 (0x7ffeb0309640) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:47:21.903 (0x7ffeb0309640) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:47:21.903 (0x7ffeb0309640) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:47:21.903 (0x7ffeb0309640) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:47:21.903 (0x7ffeb0309640) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:47:21.903 (0x7ffeb0309640) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:47:21.903 (0x7ffeb0309640) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:47:21.903 (0x7ffeb0309640) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:47:21.903 (0x7ffeb0309640) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:47:21.903 (0x7ffeb0309640) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:47:21.903 (0x7ffeb0309640) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:47:34.666 (0x7ffcc49dfad0) Debug: execAction "/usr/share/applications/spotify.desktop"
+2018-02-26 10:48:57.615 (0x7ffdc5ead5e0) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 1956, resource id: 4204202, major code: 40 (TranslateCoords), minor code: 0
+2018-02-26 10:49:08.097 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 60.0238 actionTime: QTime(Invalid)
+2018-02-26 10:49:31.501 (0x7fffc99ed530) Debug: onActivated 3
+2018-02-26 10:49:31.502 (0x7fffc99ed530) Debug: toggleShow
+2018-02-26 10:51:08.086 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 59.37 actionTime: QTime(Invalid)
+2018-02-26 10:53:08.017 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 58.6965 actionTime: QTime(Invalid)
+2018-02-26 10:54:19.017 (0x7ffcc49dfad0) Debug: Desktop count changed from 2 to 1
+2018-02-26 10:54:19.253 (0x7ffcc49dfad0) Debug: Desktop count changed from 1 to 10
+2018-02-26 10:55:08.030 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 58.023 actionTime: QTime(Invalid)
+2018-02-26 10:57:08.123 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 57.3891 actionTime: QTime(Invalid)
+2018-02-26 10:59:08.033 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 56.7353 actionTime: QTime(Invalid)
+2018-02-26 10:59:48.257 (0x7ffcc49dfad0) Debug: execAction "/usr/share/applications/spotify.desktop"
+2018-02-26 11:01:08.117 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 56.042 actionTime: QTime(Invalid)
