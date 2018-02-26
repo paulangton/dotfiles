@@ -194,3 +194,62 @@
 2018-01-11 13:05:14.955 (0x7ffe71131ba0) Warning:     * Error image is NULL
 2018-01-11 13:05:15.179 (0x7ffe71131ba0) Warning:     * Error image is NULL
 2018-01-11 13:05:15.185 (0x7ffe71131ba0) Warning:     * Error image is NULL
+2018-02-26 10:31:07.391 (0x7ffc68206b00) Debug: New PolkitAgentListener  0x55c34a2d9cc0
+2018-02-26 10:31:07.393 (0x7ffc68206b00) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7ffc68206b10) for  0x55c34a2d9cc0
+2018-02-26 10:31:07.786 (0x7ffcc49dfad0) Warning: libpng warning: iCCP: known incorrect sRGB profile
+2018-02-26 10:31:07.820 (0x7ffcc4569070) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:31:07.820 (0x7ffcc4569070) Warning: QFSFileEngine::open: No file name specified
+2018-02-26 10:31:07.893 (0x7ffcc49dfad0) Debug: ()
+2018-02-26 10:31:08.317 (0x7ffcc49dfad0) Warning: "Section \"clock\" not found in /home/paul/.config/lxqt/panel.conf."
+2018-02-26 10:31:08.366 (0x7ffcc49dfad0) Debug: WinIdChange c00007 handle QWidgetWindow(0x55a9f186e0f0, name="LXQtPanel panel1Window") QScreen(0x55a9f16b8710, name="DP-1")
+2018-02-26 10:31:08.420 (0x7ffcc49dfad0) Debug: Systray started
+2018-02-26 10:31:08.421 (0x7ffcc49dfad0) Warning: QDBusConnection: name 'org.freedesktop.UDisks2' had owner '' but we thought it was ':1.24'
+2018-02-26 10:31:08.490 (0x7ffcc4569070) Warning: libpng warning: iCCP: known incorrect sRGB profile
+2018-02-26 10:31:08.638 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 66.5016 actionTime: QTime(Invalid)
+2018-02-26 10:31:08.643 (0x7fffc99ed530) Debug: Inhibit got: 34
+2018-02-26 10:31:08.644 (0x7fffc99ed530) Debug: Starting idlenesswatcher
+2018-02-26 10:31:08.679 (0x7ffcc49dfad0) Warning:     * Error image is NULL
+2018-02-26 10:31:10.154 (0x7ffcc49dfad0) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 1502, resource id: 29360129, major code: 18 (ChangeProperty), minor code: 0
+2018-02-26 10:31:12.132 (0x7ffcc49dfad0) Warning:     * Error image is NULL
+2018-02-26 10:31:19.113 (0x7ffcc49dfad0) Debug: execAction "/usr/share/applications/urxvt.desktop"
+2018-02-26 10:31:27.038 (0x7ffcc49dfad0) Debug: execAction "/usr/share/applications/chromium.desktop"
+2018-02-26 10:31:45.320 (0x7ffcc49dfad0) Warning:     * Error image is NULL
+2018-02-26 10:31:45.321 (0x7ffcc49dfad0) Warning:     * Error image is NULL
+2018-02-26 10:31:45.324 (0x7ffcc49dfad0) Warning:     * Error image is NULL
+2018-02-26 10:31:45.327 (0x7ffcc49dfad0) Warning:     * Error image is NULL
+2018-02-26 10:32:47.119 (0x7ffdf4ca5170) Debug: Connecting to KScreen...
+2018-02-26 10:32:47.128 (0x7ffdf4ca5170) Debug: Width x Height 2.59109 x 1.66924
+2018-02-26 10:32:47.129 (0x7ffdf4ca5170) Debug: Width x Height 2.59109 x 1.66924
+2018-02-26 10:33:08.101 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 65.3328 actionTime: QTime(Invalid)
+2018-02-26 10:33:09.227 (0x7ffdf4ca5170) Debug: minWidgetLength 221 maxMonitorSize 3840 scale 0.0575521
+2018-02-26 10:33:15.537 (0x7ffcc49dfad0) Warning:     * Error image is NULL
+2018-02-26 10:33:15.551 (0x7ffcc49dfad0) Warning:     * Error image is NULL
+2018-02-26 10:33:16.547 (0x7ffdf4ca5170) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2018-02-26 10:33:17.500 (0x7ffdf4ca5170) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2018-02-26 10:33:18.501 (0x7ffdf4ca5170) Warning: QString::arg: Argument missing: "8 second(s) remaining" , 8
+2018-02-26 10:33:19.501 (0x7ffdf4ca5170) Warning: QString::arg: Argument missing: "7 second(s) remaining" , 7
+2018-02-26 10:35:08.068 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 64.5998 actionTime: QTime(Invalid)
+2018-02-26 10:35:23.589 (0x7ffc1d241c90) Debug: Connecting to KScreen...
+2018-02-26 10:35:23.593 (0x7ffc1d241c90) Debug: Width x Height 2.59109 x 1.66924
+2018-02-26 10:35:23.593 (0x7ffc1d241c90) Debug: Width x Height 2.59109 x 1.66924
+2018-02-26 10:35:25.194 (0x7ffc1d241c90) Debug: minWidgetLength 221 maxMonitorSize 3840 scale 0.0575521
+2018-02-26 10:35:36.595 (0x7ffc1d241c90) Debug: Width x Height 2.59109 x 1.85471
+2018-02-26 10:35:39.547 (0x7ffc1d241c90) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2018-02-26 10:35:40.500 (0x7ffc1d241c90) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2018-02-26 10:35:41.500 (0x7ffc1d241c90) Warning: QString::arg: Argument missing: "8 second(s) remaining" , 8
+2018-02-26 10:35:42.500 (0x7ffc1d241c90) Warning: QString::arg: Argument missing: "7 second(s) remaining" , 7
+2018-02-26 10:35:44.580 (0x7ffc1d241c90) Debug: Width x Height 2.59109 x 1.66924
+2018-02-26 10:35:46.456 (0x7ffc1d241c90) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2018-02-26 10:36:16.693 (0x7ffc1d241c90) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2018-02-26 10:36:17.644 (0x7ffc1d241c90) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2018-02-26 10:36:18.593 (0x7ffc1d241c90) Warning: QString::arg: Argument missing: "8 second(s) remaining" , 8
+2018-02-26 10:36:19.057 (0x7ffc1d241c90) Debug: [ MonitorSettingsDialog::saveConfiguration] # monitors Read: 0
+2018-02-26 10:36:19.057 (0x7ffc1d241c90) Debug: [ MonitorSettingsDialog::saveConfiguration] # monitors Write: 1
+2018-02-26 10:36:28.883 (0x7ffc1d241c90) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2018-02-26 10:36:32.380 (0x7ffc1d241c90) Debug: [ MonitorSettingsDialog::saveConfiguration] # monitors Read: 1
+2018-02-26 10:36:32.381 (0x7ffc1d241c90) Debug: [ MonitorSettingsDialog::saveConfiguration] # monitors Write: 2
+2018-02-26 10:36:40.587 (0x7ffcc49dfad0) Warning: QPainter::begin: Paint device returned engine == 0, type: 3
+2018-02-26 10:36:40.587 (0x7ffcc49dfad0) Warning: QPainter::setCompositionMode: Painter not active
+2018-02-26 10:36:40.587 (0x7ffcc49dfad0) Warning: QPainter::end: Painter not active, aborted
+2018-02-26 10:37:08.114 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 63.9461 actionTime: QTime(Invalid)
+2018-02-26 10:38:02.127 (0x7ffcc49dfad0) Debug: execAction "/usr/share/applications/urxvt.desktop"
