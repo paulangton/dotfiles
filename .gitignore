@@ -69,6 +69,11 @@
 !.config/i3blocks
 !.config/i3blocks/*
 
+# xmonad
+!.xmonad
+!.xmonad/xmonad.hs
+!.xmobarrc
+
 # zathura config
 !.config/zathura
 !.config/zathura/*
