@@ -302,3 +302,110 @@
 2018-02-26 10:59:08.033 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 56.7353 actionTime: QTime(Invalid)
 2018-02-26 10:59:48.257 (0x7ffcc49dfad0) Debug: execAction "/usr/share/applications/spotify.desktop"
 2018-02-26 11:01:08.117 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 56.042 actionTime: QTime(Invalid)
+2018-02-26 11:03:08.096 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 55.3288 actionTime: QTime(Invalid)
+2018-02-26 11:04:38.807 (0x7ffcc49dfad0) Warning: QPainter::begin: Paint device returned engine == 0, type: 3
+2018-02-26 11:04:38.807 (0x7ffcc49dfad0) Warning: QPainter::setCompositionMode: Painter not active
+2018-02-26 11:04:38.807 (0x7ffcc49dfad0) Warning: QPainter::end: Painter not active, aborted
+2018-02-26 11:05:08.071 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 54.5761 actionTime: QTime(Invalid)
+2018-02-26 11:07:08.031 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 53.8827 actionTime: QTime(Invalid)
+2018-02-26 11:09:08.058 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 53.1894 actionTime: QTime(Invalid)
+2018-02-26 11:11:08.080 (0x7fffc99ed530) Debug: BatteryChanged discharging: true chargeLevel: 52.4762 actionTime: QTime(Invalid)
+2018-02-26 11:13:01.049 (0x7ffc12473a40) Warning: The X11 connection broke (error 1). Did the X11 server die?
+2018-02-26 11:13:27.938 (0x7fff05987ef0) Debug: New PolkitAgentListener  0x55d2533b70c0
+2018-02-26 11:13:27.939 (0x7fff05987ef0) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7fff05987f00) for  0x55d2533b70c0
+2018-02-26 11:13:28.351 (0x7fffee7da0a0) Warning: libpng warning: iCCP: known incorrect sRGB profile
+2018-02-26 11:13:28.465 (0x7fffee7da0a0) Debug: ()
+2018-02-26 11:13:28.804 (0x7fffee7da0a0) Warning: "Section \"clock\" not found in /home/paul/.config/lxqt/panel.conf."
+2018-02-26 11:13:28.830 (0x7fffee7da0a0) Debug: WinIdChange 1400007 handle QWidgetWindow(0x560a04a38c30, name="LXQtPanel panel1Window") QScreen(0x560a0484b6f0, name="DP-1")
+2018-02-26 11:13:28.844 (0x7ffda3f64830) Warning: libpng warning: iCCP: known incorrect sRGB profile
+2018-02-26 11:13:28.867 (0x7fffee7da0a0) Debug: Systray started
+2018-02-26 11:13:28.867 (0x7fffee7da0a0) Warning: QDBusConnection: name 'org.freedesktop.UDisks2' had owner '' but we thought it was ':1.23'
+2018-02-26 11:13:29.022 (0x7fff3752d9c0) Debug: BatteryChanged discharging: true chargeLevel: 51.6838 actionTime: QTime(Invalid)
+2018-02-26 11:13:29.027 (0x7fff3752d9c0) Debug: Inhibit got: 34
+2018-02-26 11:13:29.027 (0x7fff3752d9c0) Debug: Starting idlenesswatcher
+2018-02-26 11:13:29.093 (0x7fffee7da0a0) Warning:     * Error image is NULL
+2018-02-26 11:13:29.111 (0x7fffee7da0a0) Warning:     * Error image is NULL
+2018-02-26 11:13:29.734 (0x7fffee7da0a0) Warning:     * Error image is NULL
+2018-02-26 11:13:33.333 (0x7fffee7da0a0) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 1734, resource id: 35651585, major code: 18 (ChangeProperty), minor code: 0
+2018-02-26 11:13:44.398 (0x7fffee7da0a0) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 2656, resource id: 35651642, major code: 18 (ChangeProperty), minor code: 0
+2018-02-26 11:13:44.444 (0x7fffee7da0a0) Warning:     * Error image is NULL
+2018-02-26 11:13:44.444 (0x7fffee7da0a0) Warning:     * Error image is NULL
+2018-02-26 11:13:44.445 (0x7fffee7da0a0) Warning:     * Error image is NULL
+2018-02-26 11:13:44.447 (0x7fffee7da0a0) Warning:     * Error image is NULL
+2018-02-26 11:13:52.595 (0x7fffee7da0a0) Debug: execAction "/usr/share/applications/urxvt.desktop"
+2018-02-26 11:14:16.461 (0x7fffee7da0a0) Debug: execAction "/usr/share/applications/chromium.desktop"
+2018-02-26 11:15:29.109 (0x7fff3752d9c0) Debug: BatteryChanged discharging: true chargeLevel: 50.4952 actionTime: QTime(Invalid)
+2018-02-26 11:17:29.103 (0x7fff3752d9c0) Debug: BatteryChanged discharging: true chargeLevel: 49.6632 actionTime: QTime(Invalid)
+2018-02-26 11:18:32.798 (0x7fffee7da0a0) Warning:     * Error image is NULL
+2018-02-26 11:18:32.922 (0x7fffee7da0a0) Warning:     * Error image is NULL
+2018-02-26 11:19:29.082 (0x7fff3752d9c0) Debug: BatteryChanged discharging: true chargeLevel: 48.851 actionTime: QTime(Invalid)
+2018-02-26 11:21:29.089 (0x7fff3752d9c0) Debug: BatteryChanged discharging: true chargeLevel: 48.0983 actionTime: QTime(Invalid)
+2018-02-26 11:23:29.050 (0x7fff3752d9c0) Debug: BatteryChanged discharging: true chargeLevel: 47.2861 actionTime: QTime(Invalid)
+2018-02-26 11:23:36.808 (0x7fffee7da0a0) Warning:     * Error image is NULL
+2018-02-26 11:23:37.008 (0x7fffee7da0a0) Warning:     * Error image is NULL
+2018-02-26 11:25:29.065 (0x7fff3752d9c0) Debug: BatteryChanged discharging: true chargeLevel: 46.5531 actionTime: QTime(Invalid)
+2018-02-26 11:25:36.249 (0x7fffee7da0a0) Debug: execAction "/usr/share/applications/urxvt.desktop"
+2018-02-26 11:25:49.560 (0x7fffee7da0a0) Warning: The X11 connection broke: I/O error (code 1)
+2018-02-26 11:25:49.561 (0x7ffc9b644ff0) Warning: Qt: Couldn't interpret the _XKB_RULES_NAMES property
+2018-02-26 11:25:49.573 (0x7ffc9b644ff0) Warning: The X11 connection broke (error 1). Did the X11 server die?
+2018-02-26 11:28:11.043 (0x7ffc862a5480) Debug: New PolkitAgentListener  0x55fa85ef7ac0
+2018-02-26 11:28:11.045 (0x7ffc862a5480) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7ffc862a5490) for  0x55fa85ef7ac0
+2018-02-26 11:28:11.292 (0x7ffd54ea4d90) Warning: libpng warning: iCCP: known incorrect sRGB profile
+2018-02-26 11:28:11.391 (0x7ffd54ea4d90) Debug: ()
+2018-02-26 11:28:11.643 (0x7ffc5eb00d60) Warning: libpng warning: iCCP: known incorrect sRGB profile
+2018-02-26 11:28:12.422 (0x7ffd54ea4d90) Warning: "Section \"clock\" not found in /home/paul/.config/lxqt/panel.conf."
+2018-02-26 11:28:12.460 (0x7ffd54ea4d90) Debug: WinIdChange 1a00007 handle QWidgetWindow(0x55d0dd29caf0, name="LXQtPanel panel1Window") QScreen(0x55d0dd0de6f0, name="DP-1")
+2018-02-26 11:28:12.526 (0x7ffd54ea4d90) Debug: Systray started
+2018-02-26 11:28:12.527 (0x7ffd54ea4d90) Warning: QDBusConnection: name 'org.freedesktop.UDisks2' had owner '' but we thought it was ':1.22'
+2018-02-26 11:28:12.679 (0x7fff9edc9780) Debug: BatteryChanged discharging: true chargeLevel: 45.8399 actionTime: QTime(Invalid)
+2018-02-26 11:28:12.685 (0x7fff9edc9780) Debug: Inhibit got: 34
+2018-02-26 11:28:12.685 (0x7fff9edc9780) Debug: Starting idlenesswatcher
+2018-02-26 11:28:12.796 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:28:12.813 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:28:13.244 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:28:19.854 (0x7ffd54ea4d90) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 2016, resource id: 31457343, major code: 18 (ChangeProperty), minor code: 0
+2018-02-26 11:28:19.916 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:28:19.917 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:28:19.918 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:28:19.919 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:29:42.153 (0x7ffd54ea4d90) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 3819, resource id: 29360133, major code: 18 (ChangeProperty), minor code: 0
+2018-02-26 11:29:45.739 (0x7ffd54ea4d90) Debug: execAction "/usr/share/applications/urxvt.desktop"
+2018-02-26 11:30:01.360 (0x7ffd54ea4d90) Debug: execAction "/usr/share/applications/chromium.desktop"
+2018-02-26 11:30:12.052 (0x7fff9edc9780) Debug: BatteryChanged discharging: true chargeLevel: 45.0872 actionTime: QTime(Invalid)
+2018-02-26 11:32:12.104 (0x7fff9edc9780) Debug: BatteryChanged discharging: true chargeLevel: 44.1165 actionTime: QTime(Invalid)
+2018-02-26 11:33:16.644 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:33:16.770 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:34:12.115 (0x7fff9edc9780) Debug: BatteryChanged discharging: true chargeLevel: 43.5816 actionTime: QTime(Invalid)
+2018-02-26 11:34:15.010 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:34:21.006 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:35:09.009 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:35:15.011 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:36:12.099 (0x7fff9edc9780) Debug: BatteryChanged discharging: true chargeLevel: 42.9477 actionTime: QTime(Invalid)
+2018-02-26 11:38:12.103 (0x7fff9edc9780) Debug: BatteryChanged discharging: true chargeLevel: 42.2742 actionTime: QTime(Invalid)
+2018-02-26 11:38:20.810 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:38:21.010 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:38:33.011 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:38:45.008 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:38:51.005 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:38:57.011 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:39:33.009 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:39:33.382 (0x7ffd54ea4d90) Debug: execAction "/usr/share/applications/urxvt.desktop"
+2018-02-26 11:39:39.010 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:39:45.218 (0x7fffa2a16f20) Warning: "Session 'session', new input device '/devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.0/bluetooth/hci0/hci0:11/0005:05AC:0255.0003/input/input25', keyboard setting will be (optionaly) reloaded..."
+2018-02-26 11:39:45.242 (0x7fffa2a16f20) Warning: "Session 'session', new input device '/devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.0/bluetooth/hci0/hci0:11/0005:05AC:0255.0003/input/input25/event18', keyboard setting will be (optionaly) reloaded..."
+2018-02-26 11:40:12.040 (0x7fff9edc9780) Debug: BatteryChanged discharging: true chargeLevel: 41.6204 actionTime: QTime(Invalid)
+2018-02-26 11:42:12.038 (0x7fff9edc9780) Debug: BatteryChanged discharging: true chargeLevel: 41.0261 actionTime: QTime(Invalid)
+2018-02-26 11:43:24.817 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:43:27.009 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:44:12.038 (0x7fff9edc9780) Debug: BatteryChanged discharging: true chargeLevel: 40.3724 actionTime: QTime(Invalid)
+2018-02-26 11:46:12.036 (0x7fff9edc9780) Debug: BatteryChanged discharging: true chargeLevel: 39.6989 actionTime: QTime(Invalid)
+2018-02-26 11:48:12.063 (0x7fff9edc9780) Debug: BatteryChanged discharging: true chargeLevel: 39.0452 actionTime: QTime(Invalid)
+2018-02-26 11:48:28.756 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:48:33.011 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:50:12.018 (0x7fff9edc9780) Debug: BatteryChanged discharging: true chargeLevel: 38.4707 actionTime: QTime(Invalid)
+2018-02-26 11:52:12.037 (0x7fff9edc9780) Debug: BatteryChanged discharging: true chargeLevel: 37.8368 actionTime: QTime(Invalid)
+2018-02-26 11:53:32.760 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:53:33.009 (0x7ffd54ea4d90) Warning:     * Error image is NULL
+2018-02-26 11:54:11.748 (0x7ffd54ea4d90) Warning: The X11 connection broke: I/O error (code 1)
+2018-02-26 11:54:13.777 (0x7fffa2a16f20) Warning: "Module 'lxqt-panel.desktop' won't terminate ... killing."
+2018-02-26 11:54:13.778 (0x7fffa2a16f20) Warning: QProcess: Destroyed while process ("lxqt-panel") is still running.
