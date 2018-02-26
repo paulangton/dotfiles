@@ -11,7 +11,7 @@ main = do
     xmproc <- spawnPipe "xmobar"
 
     xmonad $ baseConfig {
-                terminal = "sakura"
+                terminal = "urxvt"
                 , logHook = dynamicLogWithPP xmobarPP
                         { ppOutput = hPutStrLn xmproc
                         , ppTitle = xmobarColor "green" "" . shorten 50

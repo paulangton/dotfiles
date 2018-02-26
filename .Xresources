@@ -1,7 +1,7 @@
-!urxvt.depth: 32
+#URxvt.depth: 32
 URxvt.background: #505050
 URxvt.foreground: grey80
-!urxvt.background: rgba:0000/0000/0000/dddd
+#URxvt.background: rgba: 0000/0000/0000/dddd
 URxvt.scrollBar: false
 URxvt.scrollTtyOutput: false
 URxvt.scrollTtyKeypress: true
