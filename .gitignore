@@ -3,9 +3,8 @@
 
 # zsh includes
 !.zshrc
-!.zsh
-!.zsh/*
-!.oh-my-zsh
+!.zsh/**
+!.oh-my-zsh/**
 
 # zsh ignores
 .zsh/local
@@ -29,9 +28,7 @@
 
 # vim includes
 !.vimrc
-!.vim
-!.vim/*
-!.vim/*/*
+!.vim/**
 
 # vim ignore
 .vim/.netrwhist
@@ -40,34 +37,25 @@
 !.gitconfig
 !.gitignore
 
-# calendar 
-!calendar/*
-
 # background
 !pictures
 !pictures/abstract-multicolor.jpg
-
-# local scripts
-!bin
 
 # config
 !.config
 
 # nvim
-!.config/nvim
-!.config/nvim/*
+!.config/nvim/**
 
 # sakura config
-!.config/sakura
-!.config/sakura/*
+!.config/sakura/**
 
 # sway config
-!.config/sway
-!.config/sway/*
+#!.config/sway
+!.config/sway/**
 
 # i3blocks config
-!.config/i3blocks
-!.config/i3blocks/*
+!.config/i3blocks/**
 
 # xmonad
 !.xmonad
@@ -75,26 +63,21 @@
 !.xmobarrc
 
 # zathura config
-!.config/zathura
-!.config/zathura/*
+!.config/zathura/**
 
 # ulauncher config
-!.config/ulauncher
-!.config/ulauncher/*
+!.config/ulauncher/**
 
 # lxqt config
-!.config/lxqt
-!.config/lxqt/*
+!.config/lxqt/**
 
 # dunst config
-!.config/dunst
-!.config/dunst/*
+!.config/dunst/**
 
 # cli-visualizer config
-!.config/vis
-!.config/vis/*
-!.config/vis/*/*
-.config/vis/vis.log
+!.config/vis/colors
+!.config/vis/colors/*
+!.config/vis/config
 
 # X resources
 !.Xresources
