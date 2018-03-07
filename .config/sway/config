@@ -46,6 +46,7 @@ default_border none
 hide_edge_borders both
 border pixel 1
 
+layout splith
 for_window [title=".*"] split toggle
 for_window [title="Ulauncher"] floating enable
 for_float [title="Ulauncher"] move position center
