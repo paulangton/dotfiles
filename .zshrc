@@ -102,9 +102,6 @@ alias pdf='zathura'
 # virtualenvwrapper
 source /usr/bin/virtualenvwrapper.sh
 
-# Calendar display
-remind -n -gad ~/calendar
-
 # Very important configurations
 fortune -a | cowthink | lolcat
 
