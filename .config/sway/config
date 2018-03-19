@@ -43,7 +43,7 @@ gaps outer 0
 
 default_border none
 
-hide_edge_borders both
+#hide_edge_borders both
 border pixel 1
 
 layout splith
