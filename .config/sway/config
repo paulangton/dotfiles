@@ -38,6 +38,9 @@ set $prev playerctl previous
 # Lock
 set $lock systemctl suspend && swaylock -c 001F3FE0
 
+# Screenshot
+set $screenshot sh ~/bin/scripts/screenshot.sh
+
 gaps inner 0
 gaps outer 0
 
@@ -105,6 +108,10 @@ input "DLL0665:01 06CB:76AD Touchpad" {
     # start your launcher
     bindsym $mod+space exec $menu
     bindsym $mod2+space exec $menu
+
+    # take a screenshot
+    bindsym $mod+Shift+g exec $screenshot
+    bindsym $mod2+Shift+g exec $screenshot
 
     # turn backlight on/off
     bindsym $mod+F10 exec $bklton

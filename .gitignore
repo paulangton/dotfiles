@@ -41,6 +41,11 @@
 !pictures
 !pictures/abstract-multicolor.jpg
 
+# screenshot script
+!bin
+!bin/scripts
+!bin/scripts/screenshot.sh
+
 # config
 !.config
 
