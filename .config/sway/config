@@ -19,7 +19,7 @@ set $term sakura
 set $menu ulauncher
 
 # Path to desktop background
-set $bg /home/paul/pictures/abstract-multicolor.jpg 
+set $bg /home/paul/img/abstract-multicolor.jpg 
 
 # Keyboard brightness
 set $bklton brightnessctl -d dell::kbd_backlight s 1
@@ -39,7 +39,7 @@ set $prev playerctl previous
 set $lock systemctl suspend && swaylock -c 001F3FE0
 
 # Screenshot
-set $screenshot sh ~/bin/scripts/screenshot.sh
+set $screenshot sh ~/dev/screenshot/screenshot.sh
 
 gaps inner 0
 gaps outer 0
