@@ -17,5 +17,4 @@ But I break that on a semi-monthly basis (Usually due to Wayland jank-ery and my
 I also have a very minimally configured [LXQT](https://lxqt.org/) Desktop environment that I hardly ever use. 
 
 # Screenshots
-
-I should put some screenshots in eventually
+![Gaps aren't actually useful outside screenshots](img/screenshot/scrst-20180429155249.png)
