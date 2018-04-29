@@ -41,13 +41,15 @@ set $lock systemctl suspend && swaylock -c 001F3FE0
 # Screenshot
 set $screenshot sh ~/dev/screenshot/screenshot.sh
 
-gaps inner 0
-gaps outer 0
+# Gaps for screenshots 
+gaps inner 20
+gaps outer 0 
+gaps edge_gaps on
 
 default_border none
 
 #hide_edge_borders both
-border pixel 1
+border pixel 2 #0
 
 layout splith
 for_window [title=".*"] split toggle

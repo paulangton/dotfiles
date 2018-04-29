@@ -41,6 +41,10 @@
 !img
 !img/abstract-multicolor.jpg
 
+# and a sample screenshot
+!img/screenshot/
+!img/screenshot/scrst-20180429155249.png
+
 # screenshot script
 !dev
 !dev/screenshot
