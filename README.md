@@ -1,7 +1,10 @@
 # dotfiles
 
-My Linux configuration files.  
+My Linux configuration files.   
 
+![Gaps aren't actually useful outside screenshots](img/screenshot/scrst-20180429155249.png)
+
+# What I do
 I have the following Wayland-based setup:
 * Display Mananger: [SDDM](https://github.com/sddm/sddm) - A minimal display manager
 * Window Manager: [Sway](http://swaywm.org/) - An i3 drop-in Wayland compositor 
@@ -14,8 +17,4 @@ But I break that on a semi-monthly basis (Usually due to Wayland jank-ery and my
 * Terminal: [URxvt](http://software.schmorp.de/pkg/rxvt-unicode.html) - A minimal X terminal
 * Application Launcher: [Dmenu](https://tools.suckless.org/dmenu/) - Like dmenu, but it is dmenu
 
-I also have a very minimally configured [LXQT](https://lxqt.org/) Desktop environment that I hardly ever use. 
-
-# Screenshots
-
-I should put some screenshots in eventually
+I also have a very minimally configured [LXQT](https://lxqt.org/) Desktop environment that I hardly ever use.
