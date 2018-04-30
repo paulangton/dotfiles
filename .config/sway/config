@@ -42,9 +42,9 @@ set $lock systemctl suspend && swaylock -c 001F3FE0
 set $screenshot sh ~/dev/screenshot/screenshot.sh
 
 # Gaps for screenshots 
-gaps inner 20
+gaps inner 0
 gaps outer 0 
-gaps edge_gaps on
+gaps edge_gaps off
 
 default_border none
 
