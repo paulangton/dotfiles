@@ -409,3 +409,17 @@
 2018-02-26 11:54:11.748 (0x7ffd54ea4d90) Warning: The X11 connection broke: I/O error (code 1)
 2018-02-26 11:54:13.777 (0x7fffa2a16f20) Warning: "Module 'lxqt-panel.desktop' won't terminate ... killing."
 2018-02-26 11:54:13.778 (0x7fffa2a16f20) Warning: QProcess: Destroyed while process ("lxqt-panel") is still running.
+2018-05-03 14:09:36.279 (0x7ffca63a4af0) Warning: QProcess: Destroyed while process ("pcmanfm-qt") is still running.
+2018-05-03 14:09:36.281 (0x7ffca63a4af0) Warning: QProcess: Destroyed while process ("lxqt-globalkeysd") is still running.
+2018-05-03 14:09:36.282 (0x7ffca63a4af0) Warning: QProcess: Destroyed while process ("lxqt-notificationd") is still running.
+2018-05-03 14:09:36.284 (0x7ffca63a4af0) Warning: QProcess: Destroyed while process ("lxqt-panel") is still running.
+2018-05-03 14:09:36.287 (0x7ffca63a4af0) Warning: QProcess: Destroyed while process ("lxqt-policykit-agent") is still running.
+2018-05-03 14:09:36.288 (0x7ffca63a4af0) Warning: QProcess: Destroyed while process ("lxqt-powermanagement") is still running.
+2018-05-03 14:09:36.293 (0x7ffca63a4af0) Warning: QProcess: Destroyed while process ("lxqt-runner") is still running.
+2018-05-03 14:10:09.734 (0x7ffe7157a2b0) Warning: QProcess: Destroyed while process ("pcmanfm-qt") is still running.
+2018-05-03 14:10:09.748 (0x7ffe7157a2b0) Warning: QProcess: Destroyed while process ("lxqt-globalkeysd") is still running.
+2018-05-03 14:10:09.751 (0x7ffe7157a2b0) Warning: QProcess: Destroyed while process ("lxqt-notificationd") is still running.
+2018-05-03 14:10:09.753 (0x7ffe7157a2b0) Warning: QProcess: Destroyed while process ("lxqt-panel") is still running.
+2018-05-03 14:10:09.755 (0x7ffe7157a2b0) Warning: QProcess: Destroyed while process ("lxqt-policykit-agent") is still running.
+2018-05-03 14:10:09.767 (0x7ffe7157a2b0) Warning: QProcess: Destroyed while process ("lxqt-powermanagement") is still running.
+2018-05-03 14:10:09.768 (0x7ffe7157a2b0) Warning: QProcess: Destroyed while process ("lxqt-runner") is still running.

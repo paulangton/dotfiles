@@ -79,6 +79,7 @@
 
 # lxqt config
 !.config/lxqt/**
+.config/lxqt/debug.log
 
 # dunst config
 !.config/dunst/**
