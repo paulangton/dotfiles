@@ -20,10 +20,10 @@ main = do
                         { ppOutput = hPutStrLn xmproc
                         , ppTitle = xmobarColor "green" "" . shorten 50
                         , ppOrder               = \(ws:l:t:_)   -> [ws]
-                        , ppCurrent             = xmobarColor   colorBlue       colorGrayAlt
-                        , ppUrgent              = xmobarColor   colorGreen      colorGrayAlt
-                        , ppVisible             = xmobarColor   colorGray       colorGrayAlt
-                        , ppHidden              = xmobarColor   colorWhite      colorGrayAlt
+                        --, ppCurrent             = xmobarColor   color_blue       colorGrayAlt
+                        --, ppUrgent              = xmobarColor   color_green      colorGrayAlt
+                        --, ppVisible             = xmobarColor   color_gray       colorGrayAlt
+                        --, ppHidden              = xmobarColor   color_white      colorGrayAlt
                         }
                 , modMask = mod4Mask
                 , manageHook = manageDocks <+> manageHook baseConfig
@@ -33,7 +33,7 @@ main = do
                                      , ("M-<Space>", spawn "exe=`dmenu_path | dmenu` && eval \"exec $exe\"")
                                      , ("M-<F6>", spawn "playerctl skip")
                                      , ("M-<F5>", spawn "playerctl play-pause")
-                                     , ("M-<F4>", spawn "playerctl previous")
+                                     , ("Xf", spawn "playerctl previous")
                                     ]
 
                
