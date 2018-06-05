@@ -95,7 +95,7 @@ export PATH=$PATH:~/.local/bin
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # alias clear='clear && fortune -a | cowthink | lolcat'
 alias ls='ls --color=auto'
-alias dolphin='GDK_BACKEND=x11 dolphin-emu'
+alias dolphin='dolphin-emu'
 alias pdf='zathura'
 
 

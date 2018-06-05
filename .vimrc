@@ -14,7 +14,14 @@ call plug#end()
 
 " Syntax highlighting
 syntax on
+filetype on
+filetype indent on
+filetype plugin on
 
+" Dont forget Racket
+if has("autocmd")
+    au BufReadPost *.rkt,*.rktl set filetype=scheme
+endif
 
 " ALE Fixers
 let g:ale_fixers = {
