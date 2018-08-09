@@ -85,6 +85,10 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # include user-installed programs
 export PATH=$PATH:~/.local/bin
 
+# Setup Go dev environment
+export GOPATH=$HOME/dev/go
+export PATH=$PATH:$(go env GOPATH)/bin
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
