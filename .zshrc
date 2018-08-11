@@ -101,6 +101,7 @@ export PATH=$PATH:$(go env GOPATH)/bin
 alias ls='ls --color=auto'
 alias dolphin='dolphin-emu'
 alias pdf='zathura'
+alias git-sync-upstream-master='git fetch upstream && git checkout master && git rebase upstream/master'
 
 
 # virtualenvwrapper
