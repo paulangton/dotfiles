@@ -9,6 +9,9 @@ Plug 'lervag/vimtex'
 " Async Linter
 Plug 'https://github.com/w0rp/ale.git'
 
+" Go dev
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
 " Initialize plugin system
 call plug#end()
 
