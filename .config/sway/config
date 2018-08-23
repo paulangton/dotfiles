@@ -16,7 +16,7 @@ set $mod2 Mod4
 set $term sakura
 
 # Your preferred application launcher
-set $menu ulauncher
+set $menu rofi -show run
 
 # Path to desktop background
 set $bg /home/paul/img/abstract-multicolor.jpg 

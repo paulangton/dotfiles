@@ -85,7 +85,10 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # include user-installed programs
 export PATH=$PATH:~/.local/bin
 
-# Setup Go dev environment
+# cloud SDK path
+export GOOGLE_SDK_PATH="/opt/google-cloud-sdk"
+
+# Set up Go dev environment
 export GOPATH=$HOME/dev/go
 export PATH=$PATH:$(go env GOPATH)/bin
 
@@ -121,3 +124,9 @@ compinit
 
 
 
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/paul/src/google-cloud-sdk/path.zsh.inc' ]; then source '/home/paul/src/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/paul/src/google-cloud-sdk/completion.zsh.inc' ]; then source '/home/paul/src/google-cloud-sdk/completion.zsh.inc'; fi
