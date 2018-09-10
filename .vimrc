@@ -6,13 +6,14 @@ call plug#begin('~/.vim/plugged')
 " Vimtex
 Plug 'lervag/vimtex'
 
+" vim LSP impl
+Plug 'prabirshrestha/async.vim'
+Plug 'prabirshrestha/vim-lsp'
+
 " Async Linter
 Plug 'https://github.com/w0rp/ale.git'
 
-" Autocomplete
-Plug 'Valloric/YouCompleteMe'
-
-" Go dev
+" Vim-go
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 " Initialize plugin system
@@ -21,23 +22,35 @@ call plug#end()
 " Syntax highlighting
 syntax on
 filetype on
-filetype indent on
-filetype plugin on
 
 " Dont forget Racket
 if has("autocmd")
     au BufReadPost *.rkt,*.rktl set filetype=scheme
 endif
 
+filetype plugin indent on
+
+" Go syntax plugin
+let g:go_fmt_command = "goimports"
+
 " ALE Fixers
 let g:ale_fixers = {
             \   'python': ['autopep8'],
+            \   'go'    : ['gofmt'],
             \}
 
 " Vimtex
 let g:vimtex_view_method = 'zathura'
 let g:vimtex_latexmk_progname = 'nvr'
 
+" LSP
+if executable('go-langserver')
+    au User lsp_setup call lsp#register_server({
+        \ 'name': 'go-langserver',
+        \ 'cmd': {server_info->['go-langserver', '-mode', 'stdio']},
+        \ 'whitelist': ['go'],
+        \ })
+endif
 
 " Reformatting respecting latex paragraphs
 map \gq ?^$\\|^\s*\(\\begin\\|\\end\\|\\label\)?1<CR>gq//-1<CR>
