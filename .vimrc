@@ -9,6 +9,9 @@ Plug 'lervag/vimtex'
 " Async Linter
 Plug 'https://github.com/w0rp/ale.git'
 
+" Autocomplete
+Plug 'Valloric/YouCompleteMe'
+
 " Go dev
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
