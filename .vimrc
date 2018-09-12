@@ -47,9 +47,10 @@ let g:vimtex_latexmk_progname = 'nvr'
 if executable('go-langserver')
     au User lsp_setup call lsp#register_server({
         \ 'name': 'go-langserver',
-        \ 'cmd': {server_info->['go-langserver', '-mode', 'stdio']},
+        \ 'cmd': {server_info->['go-langserver', '-gocodecompletion']},
         \ 'whitelist': ['go'],
         \ })
+    autocmd FileType go setlocal omnifunc=lsp#complete
 endif
 
 " Reformatting respecting latex paragraphs
