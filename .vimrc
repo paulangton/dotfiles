@@ -10,6 +10,9 @@ Plug 'lervag/vimtex'
 Plug 'prabirshrestha/async.vim'
 Plug 'prabirshrestha/vim-lsp'
 
+" Tab completion
+Plug 'ervandew/supertab'
+
 " Async Linter
 Plug 'https://github.com/w0rp/ale.git'
 
@@ -50,7 +53,7 @@ if executable('go-langserver')
         \ 'cmd': {server_info->['go-langserver', '-gocodecompletion']},
         \ 'whitelist': ['go'],
         \ })
-    autocmd FileType go setlocal omnifunc=lsp#complete
+"    autocmd FileType go setlocal omnifunc=lsp#complete
 endif
 
 " Reformatting respecting latex paragraphs
