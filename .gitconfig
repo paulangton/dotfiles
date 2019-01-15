@@ -3,3 +3,5 @@
 	name = paul
 [push]
 	default = simple
+[core]
+	editor = vim

@@ -74,10 +74,8 @@
 # zathura config
 !.config/zathura/**
 
-# ulauncher config
-!.config/ulauncher/**
-
 # lxqt config
+!.config/lxqt
 !.config/lxqt/**
 .config/lxqt/debug.log
 
