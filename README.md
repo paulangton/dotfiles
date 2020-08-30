@@ -1,6 +1,8 @@
 # dotfiles
 
-My Linux configuration files.   
+My Linux configuration files.
+
+Be sure to run `git submodule update --init` to grab any required dependencies.
 
 ![Gaps aren't actually useful outside screenshots](img/screenshot/scrst-20180429155249.png)
 
