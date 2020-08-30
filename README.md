@@ -4,6 +4,14 @@ My Linux configuration files.
 
 ![Gaps aren't actually useful outside screenshots](img/screenshot/scrst-20180429155249.png)
 
+# Programs I expect to be installed
+```
+go
+fortune
+lolcat
+cowthink
+virtualenvwrapper
+```
 # What I do
 I have the following Wayland-based setup:
 * Display Mananger: [SDDM](https://github.com/sddm/sddm) - A minimal display manager
