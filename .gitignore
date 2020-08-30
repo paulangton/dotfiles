@@ -90,5 +90,9 @@
 # X resources
 !.Xresources
 
+# LS_COLORS
+!.LS_COLORS
+!.LS_COLORS/**
+
 # README
 !README.md

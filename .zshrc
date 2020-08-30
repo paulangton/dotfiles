@@ -116,7 +116,7 @@ source /usr/bin/virtualenvwrapper.sh
 fortune -a | cowthink | lolcat
 
 # Add colors to ls
-eval $( dircolors -b ~/src/LS_COLORS/LS_COLORS)
+eval $( dircolors -b ./.LS_COLORS/LS_COLORS)
 
 # Change zsh tab ccomplete to reflect dircolors
 zstyle ':completion:*' list-colors "${(@s.:.)LS_COLORS}"
