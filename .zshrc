@@ -63,7 +63,7 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
- if [[ -n $SSH_CONNECTION ]]; then
+ if [[ -n $SSH_CONNECTION ]] || [[ ! -x "command -v nvim" ]]; then
    export EDITOR='vim'
  else
    export EDITOR='nvim'
@@ -110,13 +110,31 @@ alias git-sync-upstream-master='git fetch upstream && git checkout master && git
 
 
 # virtualenvwrapper
-source /usr/bin/virtualenvwrapper.sh
+VENV_WRAPPER=/usr/bin/virtualenvwrapper.sh
+if [[ -f $VENV_WRAPPER ]]; then
+    source $VENV_WRAPPER
+fi
 
+fun_print=""
 # Very important configurations
-fortune -a | cowthink | lolcat
+if [[ -x "$(command -v fortune)" ]]; then
+    fun_print+="fortune "
+    if [[ -x "$(command -v cowthink)" ]]; then
+        fun_print+="| cowthink "
+        if [[ -x "$(command -v lolcat)" ]]; then
+            fun_print+="| lolcat"
+        fi
+    fi
+fi
+eval $fun_print
+
+
 
 # Add colors to ls
-eval $( dircolors -b ./.LS_COLORS/LS_COLORS)
+LS_COLORS=$HOME/.LS_COLORS/LS_COLORS
+if [[ -f $LS_COLORS ]]; then
+    eval $( dircolors -b $LS_COLORS)
+fi
 
 # Change zsh tab ccomplete to reflect dircolors
 zstyle ':completion:*' list-colors "${(@s.:.)LS_COLORS}"
