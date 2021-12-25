@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/home/paul/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -51,7 +51,7 @@ ZSH_THEME="sunrise"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git archlinux python zsh-syntax-highlighting)
+plugins=(git archlinux python golang)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -68,16 +68,6 @@ source $ZSH/oh-my-zsh.sh
  else
    export EDITOR='nvim'
  fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# Wayland display environment
-export ELM_DISPLAY=wl
-# export WLC_XWAYLAND=0
-# export GDK_BACKEND=wayland
-export GTK_CSD=0
-export _JAVA_AWT_WM_NONREPARENTING=1
 
 # ssh
 export SSH_KEY_PATH="~/.ssh/rsa_id"
@@ -97,23 +87,29 @@ export PATH=$PATH:/usr/local/go/bin
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-# alias clear='clear && fortune -a | cowthink | lolcat'
 alias ls='ls --color=auto'
 alias dolphin='dolphin-emu'
 alias pdf='zathura'
 alias image='feh'
 alias screenshot='import'
+
+# git aliases
 alias git-sync-upstream-master='git fetch upstream && git checkout master && git rebase upstream/master'
+alias gcm="git commit -m"
+alias gshitcommit="git commit -m f --no-verify"
 
 
 # virtualenvwrapper
 VENV_WRAPPER=/usr/bin/virtualenvwrapper.sh
 if [[ -f $VENV_WRAPPER ]]; then
     source $VENV_WRAPPER
+fi
+
+# autojump
+autojump="/usr/share/autojump/autojump.zsh"
+if [[ -f "$autojump" ]]
+then
+	source $autojump
 fi
 
 fun_print=""
