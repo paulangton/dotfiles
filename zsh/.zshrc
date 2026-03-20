@@ -101,6 +101,7 @@ function bout {
 
 # attach-or-create
 alias tmac="tmux new -A -s"
+alias tmls="tmux list-sessions"
 
 # Add colors to ls
 LS_COLORS=$HOME/.LS_COLORS/LS_COLORS
