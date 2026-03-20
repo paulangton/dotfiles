@@ -60,8 +60,6 @@ alias grc="git rebase --continue"
 alias gshitcommit="git commit -m f --no-verify"
 alias gsyncbranchmaster="git checkout master && git pull && git checkout - && sleep 10 && git rebase master"
 
-# TODO not working
-alias gancestorof="git rev-list commit2 | grep git rev-parse commit2"
 alias grecent="git branch --sort=-committerdate"
 
 
@@ -99,6 +97,11 @@ function bout {
     cd "$(bazel info output_path)/darwin_arm64-fastbuild/bin"
 }
 
+# Tmux 
+
+# attach-or-create
+alias tmac="tmux new -A -s"
+
 # Add colors to ls
 LS_COLORS=$HOME/.LS_COLORS/LS_COLORS
 if [[ -f $LS_COLORS ]]; then
@@ -115,3 +118,4 @@ HISTSIZE=10000000
 SAVEHIST=10000000
 setopt SHARE_HISTORY
 setopt HIST_IGNORE_DUPS
+

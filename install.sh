@@ -1,12 +1,14 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# create config folder, if not exist
+mkdir -p "${HOME}"/.config
+
 DOTFILES_DIR="$HOME/.dotfiles"
 
 pushd $DOTFILES_DIR || 'exit'
 git submodule update --init
 popd
-
 
 # configure zsh
 cp -r "${HOME}"/.dotfiles/zsh/.zshrc "${HOME}"
@@ -29,11 +31,7 @@ else
   exec /bin/zsh
 fi
 
-
-# create config folder, if not exist
-mkdir -p "${HOME}"/.config
-
-# remove and replace existing nvim directory/symlink
+# remove and replace existing nvim config
 rm -rf "${HOME}/.config/nvim"
 cp -r "${HOME}"/.dotfiles/nvim "${HOME}"/.config/nvim
 
