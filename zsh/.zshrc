@@ -64,7 +64,6 @@ alias gsyncbranchmaster="git checkout master && git pull && git checkout - && sl
 alias gancestorof="git rev-list commit2 | grep git rev-parse commit2"
 alias grecent="git branch --sort=-committerdate"
 
-alias bout="cd $(bazel info output_path)/darwin_arm64-fastbuild/bin"
 
 function get-branch {
     git remote set-branches --add origin $1 && git fetch origin $1 && git checkout --track origin/$1
@@ -95,7 +94,10 @@ if [[ -x "$(command -v fortune)" ]]; then
 fi
 eval $fun_print
 
-
+# Bazel
+function bout {
+    cd "$(bazel info output_path)/darwin_arm64-fastbuild/bin"
+}
 
 # Add colors to ls
 LS_COLORS=$HOME/.LS_COLORS/LS_COLORS
