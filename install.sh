@@ -17,6 +17,11 @@ if [ -d "$ZSH_DIR" ]; then
   echo "$ZSH_DIR already exists. Skipping Oh My Zsh installation."
 else
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended --keep-zshrc
+
+  # ZSH plugins
+  # install zsh-syntax highlighting
+  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
   # set zsh as default shell
   chsh -s /bin/zsh
 
