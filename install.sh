@@ -7,23 +7,23 @@ pushd $DOTFILES_DIR || 'exit'
 git submodule update --init
 popd
 
+
 # configure zsh
 cp -r "${HOME}"/.dotfiles/zsh/.zshrc "${HOME}"
 
-# download and install if not installed already
-if command -v zsh &> /dev/null
-then
-    echo "Zsh is installed."
-    zsh --version
+ZSH_DIR="$HOME/.oh-my-zsh"
+
+if [ -d "$ZSH_DIR" ]; then
+  echo "$ZSH_DIR already exists. Skipping Oh My Zsh installation."
 else
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended --keep-zshrc
-
   # set zsh as default shell
   chsh -s /bin/zsh
 
   # load zsh
   exec /bin/zsh
 fi
+
 
 # create config folder, if not exist
 mkdir -p "${HOME}"/.config
