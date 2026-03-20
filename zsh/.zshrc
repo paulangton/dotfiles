@@ -18,7 +18,17 @@ plugins=(git python golang zsh-syntax-highlighting ruby)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-export EDITOR='nvim'
+
+# editor selection, prefer neovim
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
+command -v nvim >/dev/null
+if [[ $? -ne 0 ]]; then
+export EDITOR='vim'
+    echo "neovim is not installed - falling back to vim as editor"
+else
+    export EDITOR='nvim'
+fi
+
 
 # ssh
 export SSH_KEY_PATH="~/.ssh/rsa_id"
