@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
-set -e
+set -euo pipefail
 
+DOTIFLES_DIR="$HOME/.dotfiles"
+
+pushd $DOTFILES_DIR || 'exit'
 git submodule update --init
+popd
 
 # install zsh
 cp -r "${HOME}"/.dotfiles/zsh/.zshrc "${HOME}"
@@ -20,10 +24,8 @@ fi
 # create config folder, if not exist
 mkdir -p "${HOME}"/.config
 
-# remove existing nvim directory/symlink
+# remove and replace existing nvim directory/symlink
 rm -rf "${HOME}/.config/nvim"
-
-# create symlink
 cp -r "${HOME}"/.dotfiles/nvim "${HOME}"/.config/nvim
 
 # install neovim
