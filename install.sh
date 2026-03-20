@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-DOTIFLES_DIR="$HOME/.dotfiles"
+DOTFILES_DIR="$HOME/.dotfiles"
 
 pushd $DOTFILES_DIR || 'exit'
 git submodule update --init
