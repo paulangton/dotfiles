@@ -35,6 +35,9 @@ cp -r "${HOME}"/.dotfiles/nvim "${HOME}"/.config/nvim
 # install neovim
 if command -v nvim &> /dev/null
 then
+    echo "neovim is installed."
+    nvim --version
+else
     if [[ "$OSTYPE" == "linux-gnu"* ]]; then
         curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
         sudo rm -rf /opt/nvim-linux-x86_64
